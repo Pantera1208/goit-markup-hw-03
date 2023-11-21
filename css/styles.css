@@ -38,14 +38,12 @@
     
     .page-header{
       border-bottom: 1px solid #E7E9FC;
-      display: block;
     }
     
     .container-navigation {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 40px;
   }
 
      .page-navigation{
@@ -72,7 +70,6 @@
     .link-list{
       display: flex;
       gap: 40px;
-      padding: 24px 0;
     }
     
     .header-nav-link{
@@ -81,6 +78,7 @@
       font-weight: 500;
       line-height: 1.5;
       letter-spacing: 0.02em;
+      display: block;
       padding: 24px 0;
 
   }
@@ -93,7 +91,6 @@
 
     .page-contacts {
         font-style: normal;
-        display: block;
       }
 
       .contacts-list{
@@ -101,18 +98,15 @@
         gap: 40px;
       }
 
-      .link-contacts{
-        display: flex;
-        padding-top: 24px;
-        padding-bottom: 24px;
-      }
 
     .address-link{
         color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        display: flex;
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
     
     .address-link:hover,
@@ -122,7 +116,6 @@
     
     .hero{
         background: #2E2F42;
-          display: block;
           padding: 188px 0;
           }
     
@@ -133,7 +126,7 @@
       line-height: 1.07;
       letter-spacing: 0.02em;
       text-align: center;
-      padding-bottom: 48px;
+      margin-bottom: 48px;
       max-width: 496px;
       margin-left: auto;
       margin-right: auto;
@@ -191,9 +184,6 @@
 
     .benefit-item{
       width: calc((100% - 72px) / 4);
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 8px;
     }
      
     .benefit-title{
@@ -300,7 +290,6 @@
     .card{
       background: #fff;
       width: calc((100% - 48px) / 3);
-      padding-bottom: 32px;
     }
     
     .portfolio-container{
